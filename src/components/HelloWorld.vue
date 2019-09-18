@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
+   <!-- <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
@@ -26,15 +26,115 @@
       <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    </ul>-->
 
     <!-- the select -->
     <div class="cmb-input-group">
-      <label class="cmb-input-label">ffdfsdfds</label><b-form-select class="cmb-enter-input" v-model="selected" :options="options"></b-form-select>
-     <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
-
+      <label class="cmb-input-label">所在行业</label><b-form-select class="cmb-enter-input" v-model="selected" :options="options"></b-form-select>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
       <div class="mt-3">Selected: <strong>{{ selected }}</strong></div>-->
     </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">企业规模</label><b-form-select class="cmb-enter-input" v-model="selected1" :options="options1"></b-form-select>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">成立年限</label><b-form-select class="cmb-enter-input" v-model="selected1" :options="options1"></b-form-select>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">银行账户数量</label><b-form-input class="cmb-enter-input" v-model="bank_account_amount" placeholder=""></b-form-input>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">本年利润总额</label><b-form-input class="cmb-enter-input" v-model="annual_profit_total" placeholder=""></b-form-input>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">本年总负债</label><b-form-input class="cmb-enter-input" v-model="annual_debt_total" placeholder=""></b-form-input>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">本年所得税费用</label><b-form-input class="cmb-enter-input" v-model="annual_tax_total" placeholder=""></b-form-input>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">本年营业收入</label><b-form-input class="cmb-enter-input" v-model="annual_revenue" placeholder=""></b-form-input>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">上年营业收入</label><b-form-input class="cmb-enter-input" v-model="h1_revenue" placeholder=""></b-form-input>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">平均净资产</label><b-form-input class="cmb-enter-input" v-model="average_net_assets" placeholder=""></b-form-input>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">年初应收账款余额</label><b-form-input class="cmb-enter-input" v-model="balance_receivable_beginning" placeholder=""></b-form-input>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">年末应收账款余额</label><b-form-input class="cmb-enter-input" v-model="balance_receivable_end" placeholder=""></b-form-input>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">应付账款余额</label><b-form-input class="cmb-enter-input" v-model="balance_payable" placeholder=""></b-form-input>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">海外应收占比</label><b-form-input class="cmb-enter-input" v-model="share_oversea_receivable" placeholder=""></b-form-input>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <div class="cmb-input-group">
+
+      <label class="cmb-input-label">存货种类</label><b-form-select class="cmb-enter-input" v-model="inventory_type" :options="inventory_type_options"></b-form-select>
+      <!-- <b-form-select v-model="selected" :options="options" size="sm" class="mt-3"></b-form-select>
+      <div class="mt-3">Selected: <strong>{{ selected1 }}</strong></div>-->
+    </div>
+
+    <b-button class="finiance_analyze_button">开始分析</b-button>
 
 
 
@@ -50,12 +150,52 @@ export default {
     return {
       selected: null,
       options: [
+        { value: null, text: '' },
         { value: null, text: 'Please select an option' },
         { value: 'a', text: 'This is First option' },
         { value: 'b', text: 'Selected Option' },
         { value: { C: '3PO' }, text: 'This is an option with object value' },
         { value: 'd', text: 'This one is disabled', disabled: true }
-      ]
+      ],
+      selected1: null,
+      options1: [
+        { value: null, text: '' },
+        { value: null, text: 'Please select an option' },
+        { value: 'a', text: 'This is First option' },
+        { value: 'b', text: 'Selected Option' },
+        { value: { C: '3PO' }, text: 'This is an option with object value' },
+        { value: 'd', text: 'This one is disabled', disabled: true }
+      ],
+      selected2: null,
+      options2: [
+        { value: null, text: '' },
+        { value: null, text: 'Please select an option' },
+        { value: 'a', text: 'This is First option' },
+        { value: 'b', text: 'Selected Option' },
+        { value: { C: '3PO' }, text: 'This is an option with object value' },
+        { value: 'd', text: 'This one is disabled', disabled: true }
+      ],
+      inventory_type: null,
+      inventory_type_options: [
+        { value: null, text: '' },
+        { value: null, text: 'Please select an option' },
+        { value: 'a', text: 'This is First option' },
+        { value: 'b', text: 'Selected Option' },
+        { value: { C: '3PO' }, text: 'This is an option with object value' },
+        { value: 'd', text: 'This one is disabled', disabled: true }
+      ],
+      text: '',
+      bank_account_amount: '',
+      annual_profit_total: '',
+      annual_debt_total: '',
+      annual_tax_total: '',
+      annual_revenue: '',
+      h1_revenue: '',
+      average_net_assets: '',
+      balance_receivable_beginning: '',
+      balance_receivable_end: '',
+      balance_payable: '',
+      share_oversea_receivable: '',
     }
   },
   props: {
@@ -82,17 +222,35 @@ a {
 }
 .cmb-input-group{
   margin-bottom: 500px;
+  background-color: #ffffff;
+  margin: 5px 0;
 }
 .cmb-input-label{
-  width:30%;
-  text-align: left
+  width:37%;
+  text-align: left;
+  font-size:13px;
+  color: #000;
 }
 .cmb-enter-input{
-  width:65%;
+  width:55%;
   border: none;
   text-align: right;
+  display: inline;
 }
 .cmb-enter-input option{
   direction: ltr;
+}
+.hello{
+  background-color: ghostwhite;
+  padding-bottom: 500px;
+}
+.finiance_analyze_button{
+  background-image: linear-gradient(-130deg, #5829D6 0%, #0B25DF 100%);
+  border-radius: 20px;
+  width: 345px;
+  height: 40px;
+  opacity: 0.5;
+  border: none;
+  margin-top: 10px;
 }
 </style>
