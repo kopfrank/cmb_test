@@ -6,11 +6,13 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Cunhuo from './components/cunhuo.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    Cunhuo
   }
 }
 </script>
