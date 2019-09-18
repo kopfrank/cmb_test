@@ -31,6 +31,7 @@
     <div class="enter-page-des">
 
       <p>您好，欢迎开启专属贵司的财务状况评级，为了更好地为您提供服务，请先花1分钟，回答以下题目吧！</p>
+      <router-link to="/Cuohuo">Go to Foo</router-link>
     </div>
 
     <!-- the select -->
