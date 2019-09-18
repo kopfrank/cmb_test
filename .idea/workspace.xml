@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c4909ad-f536-481d-b62e-06823774b683" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1c894677f8360997b55e218c7aa9a36481e60508.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/1ca08ac0de0a57f3b7763f94812a6994c61fe6e8.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/21f4a5ac0a1e7607252c72060daf1227175721e9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/2340a61f27069affc7f406b217460baff82dd575.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/4f1c095f823e3369913d2e14bf2681566665162f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/52d860758042c991861fc123bf892c83f972d740.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/5803c64ad89504d2fba58bb84b879c873ecf94cd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/7dbe5969bde8f8702e1f1ad2d14a1e4823016114.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/81020fd98850e4d2b872c7890f6fffd7690f2c80.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/8e69f79e406afebc1cdfb8e0d63ee89c96db798f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/9bbe8be52fb3e558019497f9627250be48d8e358.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/9f4529333a6247ae477533d7a4d87e5699a74005.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/abe4e8ebae3af94770009a11b5d95cf061e33cbe.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/acff821bf1865f7b51b7b2d59c224bcbb09311cd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b18fcb1e3b9aa087119f6d513809a10f4b5c356b.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/b3ea2c61855ac563a0eade35e08b3300e8ab5791.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d0a456df2ce16de771b248a7d6c55dd191f41211.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d4a02d46004d12d15effaa0862a7928f605d2db2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/d61f6c53d89f0f27ec3e4e83f61530d3f7df1312.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/e014b6708fca84663e5946f4e213b656f2a44aad.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/edda4ad6b11bf9cbd70bb1460466d86aa310744f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/eslint-loader/fda0f63cfbc62de56b14960e1a64a800087c82f5.json.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/299d809295e703bc4d858cafa8aa1337.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/299d809295e703bc4d858cafa8aa1337.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/298f9217c4ddf983f03ba9408e166a16.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/298f9217c4ddf983f03ba9408e166a16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/405a88f959317e8a4bf02e801867d308.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/405a88f959317e8a4bf02e801867d308.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/584a1e75be432c883aaeda82d8a83987.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/584a1e75be432c883aaeda82d8a83987.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/86658a0314cfc927c72e150ee8f65b1a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/86658a0314cfc927c72e150ee8f65b1a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e8490b3cb0243262216e962af7a81d26.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e8490b3cb0243262216e962af7a81d26.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelloWorld.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/HelloWorld.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="253" column="20" selection-start-line="253" selection-start-column="20" selection-end-line="253" selection-end-column="20" />
+            <state relative-caret-position="480">
+              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -123,12 +151,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568770676750</updated>
-      <workItem from="1568770677979" duration="5223000" />
+      <workItem from="1568770677979" duration="7342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5223000" />
+    <option name="totallyTimeSpent" value="7342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="23" width="1180" height="797" extended-state="0" />
@@ -173,8 +201,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HelloWorld.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="253" column="20" selection-start-line="253" selection-start-column="20" selection-end-line="253" selection-end-column="20" />
+        <state relative-caret-position="480">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
         </state>
       </provider>
     </entry>
